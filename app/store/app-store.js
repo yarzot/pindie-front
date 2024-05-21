@@ -11,7 +11,7 @@ export const useStore = create((set) => ({
         setJWT(token);
     },
     logout: () => {
-        set({ isAuth: false, user: null, token: null });
+        set({ isAuth: true, user: { ...user, id: user._id }, token: jwt });
         removeJWT();
     },
     checkAuth: async () => {
