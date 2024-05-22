@@ -57,7 +57,7 @@
   .promo {
     padding: 40px 120px;
   }
-
+  
   .promo__title {
     font-size: 30px;
   }
@@ -72,16 +72,15 @@
 
 @media (width <= 1024px) {
   .promo {
-    padding: 80px 40px;
-  }
+      padding: 80px 40px;
+    }
 }
 
 @media (width <= 768px) {
-
   .promo__description {
     margin-left: 0;
   }
-
+  
   .promo__button {
     margin-left: 0;
   }
@@ -93,10 +92,9 @@
     gap: 80px;
     padding: 80px 14px;
   }
-
+  
   .promo__image {
     max-width: 500px;
     justify-self: start;
   }
 }
-

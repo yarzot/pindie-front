@@ -7,13 +7,13 @@
 
 .banner__title {
   font-size: 42px;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
   max-width: 708px;
 }
 
 .banner__text-block {
   line-height: 1.6;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   padding-left: 80px;
   max-width: 630px;
   letter-spacing: 1.5;
@@ -40,23 +40,22 @@
 }
 
 @media (width <= 1024px) {
-  
   .banner {
     grid-template-columns: 1fr;
     padding: 80px 40px;
   }
-
+  
   .banner__title {
-    width: 70%;
-    max-width: 100%;
+      width: 70%;
+      max-width: 100%;
   }
-
+  
   .banner__text-block {
-    max-width: 100%;
+      max-width: 100%;
   }
-
+  
   .banner__image {
-    display: none;
+      display: none;
   }
 }
 
@@ -74,4 +73,3 @@
     padding: 80px 14px;
   }
 }
-
